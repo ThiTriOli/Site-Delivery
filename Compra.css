@@ -1,0 +1,120 @@
+body{
+    outline: none;
+    margin: 0%;
+}
+header{
+    height: 12vh;
+    background-color: #634444;
+}
+nav{
+   
+}
+#btns{
+    margin-top: 2%;
+    display: inline-block;
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 180%;
+  border: #1C1C1C solid 2px;
+  text-align: center;
+  height: 4vh;
+
+}
+main{
+    height: 76vh;
+    background-color: #926a6a;
+}
+main a{
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+    font-size: 250%;
+    color: white;
+    text-decoration: none;
+    margin-left: 30%;
+}
+main img{
+    position: absolute;
+    margin-left: 43%;
+}
+main p{
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+    margin-left: 20%;
+}
+main input{
+    margin-left: 3%;
+    width: 30%;
+    outline: none;
+}
+#logo{
+margin-left: 41%;
+}
+#cardápio{
+    text-decoration: none;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 190%;
+    margin-left: 38%;
+    color: #1C1C1C;
+}
+#voltar{
+    color: #1C1C1C; 
+    font-size: 150%; 
+    margin-left: 40%;
+    margin-top: 50%;
+}
+
+#depression
+{
+    padding-top: 100px;
+}
+
+footer{   
+    height: 12vh;
+    background-color: #634444;   
+}
+#fim{
+    display: inline-block;
+}
+#pé{
+    margin-top: 3%;
+    text-decoration: none;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 170%;
+    margin-left: 5%;
+    display: inline-block;
+    color: #1C1C1C;
+}
+@media (max-width: 767px) {
+    #compra{
+        margin-left: 13%;
+        font-size: 100%;
+    }
+    main img{
+        width: 30%;
+        position: absolute;
+        margin-top: -85%;
+        margin-left: 35%;
+    }
+   #pé{
+    font-size: 100%;
+   }
+   #depression{
+    padding-top: 0px;
+   }
+   main a{
+    margin-bottom: 100%;
+   }
+   #voltar{
+    font-size: 100%;
+   }
+}
+
